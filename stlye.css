@@ -1,0 +1,214 @@
+*
+    {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+ul
+    {list-style-type: none;}
+
+p   {font-size: 18px;
+    margin-bottom: 1em;}
+
+a   {text-decoration: none;
+    color: #000;}
+
+body
+    {background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300px;
+    font-size: 1em;}
+
+#main_header
+    {background-color: #fff;
+    width: 1400px;
+    margin: 0 auto;
+    position:relative ;
+    height: 200px;
+    padding-top: 35px;
+    margin-top: 100px;
+    border: 1px solid #dfdfdf;}
+
+#main_header > .code
+        {position: absolute;
+        width: 200px;
+        left: 30px;
+        top: 70px;}
+
+#main_header > .header_group
+        {text-align: center;}
+
+.header_group .sub_title
+        {font-size: 24px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        text-transform: uppercase;} 
+
+.header_group > h1
+        {font-size: 76px;
+        line-height: 76px;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.05em;}
+
+.header_group .copy
+        {text-transform: capitalize;
+        font-size: small;
+        color: #333;
+        letter-spacing: 0.1em;}
+
+
+
+#main_header > .time
+        {position: absolute;
+        right: 30px;
+        bottom: 20px;
+        text-align: right;}
+
+.date
+        {font-size: 30px;
+        line-height: 1.0em;}
+
+#gnb
+        {background-color: #fff;
+        width: 1400px;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-top: 1px dashed black;
+        border-bottom: 3px dashed black;}
+
+#gnb ul
+        {overflow: hidden;
+        padding-top: 1rem;
+        padding-bottom: 1rem;}
+
+#gnb ul li
+        {float: left;
+        width: calc(100% /5);
+        text-align: center;
+        border-left: 1px solid black;}
+
+#gnb ul li :hover
+        {color: red;}
+
+#gnb ul li:last-child
+        {border-right: 1px solid black;}
+
+#gnb ul li a
+        {text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;}
+
+#contents
+        {width: 1400px;
+        background-color: white;
+        margin: 0 auto;
+        padding: 20px 30px;
+        column-count: 3;
+        border: 1px solid brown;}
+
+article
+        {break-after: column;}
+
+.arrow 
+        {font-size: small;
+        color: red;}
+
+.more_btn
+        {font-weight: bolder;
+        text-transform: uppercase;
+        margin-left: 1em;}
+
+article img
+        {width: 100%;}
+
+.today img
+        {width: 100px;}
+
+article > p
+        {line-height: 1.7em;}
+
+article:first-child h2
+        {text-align: center;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3.3em;
+        margin-bottom: 20px;}
+
+article:nth-child(2) h2
+        {text-align: center;
+        margin-bottom: 20px;}
+
+#sidebar figure
+        {position: relative;
+        padding: 1.5em 2em;
+        border: 2px solid black;}
+
+hr
+        {background-color: black;
+        border-width: 0;
+        height: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;}
+
+.left-btn, .right-btn
+        {position: absolute;
+        color: red;
+        font-size: 20px;}
+
+.left-btn
+        {left: 10px;
+        top: 160px;}
+
+.right-btn
+        {right:10px;
+        top: 160px;}
+
+#sidebar .today
+        {border-bottom: 1px solid black;
+        padding-bottom: 1em;}
+
+#sidebar > .today > a
+        {display: block;
+        overflow: hidden;}
+
+#sidebar > .today > a img
+        {float: left;
+        margin-right: 1em;}
+
+#sidebar > .today > a > .info
+        {float: left;
+        padding-top: 1em;}
+
+.fw400
+        {font-weight: 400;}
+
+h4
+        {font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;}
+
+
+#sidebar figure h3
+        {font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 20px;}
+
+.notice ul
+        {list-style-type: disc;
+        list-style-position: inside;
+        color: red;
+        margin-bottom: 20px;}
+
+.notice ul li
+        {margin-bottom:  2px;
+        margin-top: 2px;
+        padding: 2px;
+        position: relative;
+        left: 10px;}
+
